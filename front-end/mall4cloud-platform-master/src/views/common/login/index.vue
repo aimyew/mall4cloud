@@ -228,6 +228,10 @@ $cursor: #fff;
     border-radius: 5px;
     color: #454545;
   }
+
+  .el-form-item:hover {
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.1);
+  }
 }
 </style>
 
@@ -289,6 +293,10 @@ $light_gray: #eee;
       font-size: 18px;
       right: 0px;
       cursor: pointer;
+    }
+
+    .set-language:hover {
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     }
   }
 
